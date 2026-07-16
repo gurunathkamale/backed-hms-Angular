@@ -9,7 +9,7 @@ app=FastAPI()
 
 
 
-origins = ["http://localhost:4800"]
+origins = ["https://fullstack-angular-pink.vercel.app"]
 
 app.add_middleware(
     CORSMiddleware,
